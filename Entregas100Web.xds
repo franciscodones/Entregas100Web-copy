@@ -7,7 +7,7 @@
             "frameworkVersion": "6.5.3.57"
         },
         "urlPrefixTemplate": "http://localhost:{port}/{path}",
-        "urlPrefix": "http://localhost:52802/",
+        "urlPrefix": "http://localhost:53021/",
         "canvasControls": {
             "viewportSize": {
                 "name": "Large",
@@ -38,6 +38,27 @@
     "framework": "ext65",
     "viewOrderMap": {
         "view": [
+            "7c20484f-c1fc-473f-9ee5-810b329d9797",
+            "d4b13efc-3cee-43fa-afed-360d5c674743",
+            "f3bcd657-cebe-4167-b15a-bcac67bfa327",
+            "1c4c912b-b087-49c2-bd31-9fc66811b3e1",
+            "f5a37004-8ec3-4fc9-a970-2bfc23ee876c",
+            "9728e2f6-0b47-4a94-aa88-7cb907e3aeb5",
+            "fe019553-7122-47f5-88c6-e364898d9278",
+            "31e7a105-0ba0-4556-8fc4-280f691ef425",
+            "98c200cb-1e90-4b83-9b13-76a66ed6bfc7",
+            "e9f6d3fe-e5a3-4faf-97c0-5dfaa7b5d850",
+            "0f8212aa-c21b-40a7-8145-d22d56756fb2",
+            "9bfbe345-efe9-4eb5-bc92-82a1fe31ea47",
+            "ab71ea01-ffef-41dd-bff6-9111f4f6bbf2",
+            "5422be9e-5946-4a3c-abea-367c4f8d011c",
+            "ba9bba42-15df-4449-b5bd-e590b017609b",
+            "fa816897-cc1e-4776-b158-be2d0944333c",
+            "54e4277b-3e8a-468f-b5cf-3c7d84871817",
+            "8200bb60-bcae-4ece-8d76-45b26dc0899d",
+            "b8672582-b4e1-45a3-bdc6-dcabe239a40c",
+            "b4fd41c7-9bb1-4668-b252-f4f731c3bf8d",
+            "8500a499-072a-4fbd-8115-af898e27801d",
             "ccb3a004-46df-4533-afae-03018f6fb245",
             "4c577587-787a-419d-bcc2-ab636fdddac8",
             "df1e4ec6-e6d2-4972-bf0d-906d41b5be4c",
@@ -142,6 +163,16 @@
             "d37f8676-f96f-4c78-a70b-946c82e23f03"
         ],
         "store": [
+            "a20665d8-11a9-4b37-b56f-63a1b8f5a1f6",
+            "607bfcd9-b4d8-45c7-b2be-6c7678573671",
+            "f4c5de2d-6698-451d-b04e-8cc583dc537b",
+            "b38bcdb0-9613-4caf-a724-4c32be5e8b91",
+            "520e732f-c05e-49b0-b2e8-57e689737e55",
+            "1a16e5f5-c701-4cc9-ae30-0577ae0a0a41",
+            "e42d2c73-d719-4d06-b517-b5ebc34495b5",
+            "9b63b176-85a5-4b2e-94b0-292d3569c3f0",
+            "ede45f4a-7be8-404c-836b-5f04be5e56af",
+            "7e21b6b2-11f1-48fc-905d-fcb5a4c66927",
             "5f235546-7ed6-4ca3-99cc-f4c65cc9edd8",
             "8469546a-2755-470a-a414-461319a2b51d",
             "f3c75a54-d675-488d-88b0-d9e98606dac4",
@@ -164,6 +195,15 @@
         ],
         "controller": [],
         "model": [
+            "ba721772-fb7f-4950-84a0-0a4c1999bca4",
+            "3c132d4c-506e-4334-8a0f-55405161efeb",
+            "0f4beae1-1139-4ba6-8df9-ed4605ad972b",
+            "08c2c306-cf6b-46ae-9810-eff79fd48c96",
+            "f01fc3b7-8999-4a5b-bafb-768ec4a60a0e",
+            "cfe2a2fe-b9e4-40f4-b90a-9320b0f2b4e0",
+            "668bb7eb-8235-4370-9d28-17ebf5156964",
+            "eccd596b-0f07-48f1-8685-b99863cf4f5b",
+            "eb24d894-796c-4cc8-bc58-2c5ab68dc9bc",
             "9c79983b-31bf-4996-bce2-2758dd113d53",
             "9a945399-4d27-4ca7-bb19-ea0b7027c25b",
             "67b57e79-71d6-46f6-a840-69d5df8f04fe",
@@ -185,7 +225,7 @@
             "3b365496-9cd9-4a97-8cb7-c51a39ebd2e1"
         ],
         "resource": [
-            "dbdb9c95-a472-48d8-bd6e-58869f5c483f",
+            "978aa5b6-b97a-482f-bc55-607d6d97056d",
             "eeea5342-405b-4cc3-b300-0364ab6fff3b",
             "bededc52-2f39-44f8-9a11-4d8f26eca495"
         ],

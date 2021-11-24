@@ -137,66 +137,6 @@ Ext.define('Entregas100Web.view.MainViewport', {
                             items: [
                                 {
                                     xtype: 'menuitem',
-                                    permissionId: 9,
-                                    itemId: 'mItemZonas',
-                                    glyph: 'f041@FontAwesome',
-                                    text: 'Zonas',
-                                    listeners: {
-                                        click: 'onMItemZonasClick'
-                                    }
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    permissionId: 10,
-                                    itemId: 'mItemUnidades',
-                                    glyph: 'f0d1@FontAwesome',
-                                    text: 'Unidades',
-                                    listeners: {
-                                        click: 'onMItemUnidadesClick'
-                                    }
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    permissionId: 11,
-                                    itemId: 'mItemOperadores',
-                                    glyph: 'f0c0@FontAwesome',
-                                    text: 'Operadores',
-                                    listeners: {
-                                        click: 'onMItemOperadoresClick'
-                                    }
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    permissionId: 12,
-                                    itemId: 'mItemTarifas',
-                                    glyph: 'f155@FontAwesome',
-                                    text: 'Tarifas',
-                                    listeners: {
-                                        click: 'onMItemTarifasClick'
-                                    }
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    permissionId: 13,
-                                    itemId: 'mItemDescuentosPromocion',
-                                    glyph: 'f4d3@PyansaFontAwesomeSolid',
-                                    text: 'Descuentos promocion',
-                                    listeners: {
-                                        click: 'onMItemDescuentosPromocionClick'
-                                    }
-                                },
-                                {
-                                    xtype: 'menuitem',
-                                    permissionId: 14,
-                                    itemId: 'mItemHorariosLista',
-                                    glyph: 'f017@FontAwesome',
-                                    text: 'Horarios de Lista',
-                                    listeners: {
-                                        click: 'onMItemHorariosListaClick'
-                                    }
-                                },
-                                {
-                                    xtype: 'menuitem',
                                     itemId: 'mItemMangueras',
                                     glyph: 'f1a4@FontAwesome',
                                     text: 'Mangueras',

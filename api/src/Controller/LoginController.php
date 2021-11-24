@@ -15,19 +15,27 @@ class LoginController extends AppController {
         $sUsuario = $this->request->data["usuario"];
         $sContrasena = $this->request->data["contrasena"];
 
-        $oConexion = $this->getConexion();
+        $oConexion = $this->getConexion('mangueras');
 
         // busca el usuario con las credenciales proporcionadas
         $sQuery = "SELECT * FROM usuario WHERE usuario = ? AND password = ?";
         $aQueryParams = array($sUsuario, $sContrasena);
         $aResultado = $oConexion->query($sQuery, $aQueryParams);
 
+
         // si no existe el usuario
         if (count($aResultado) <= 0) {
             return $this->asJson(array(
                 "success" => false,
-                "message" => "El usuario y/o contraseña son incorrecots"
+                "message" => "El usuario y/o contraseña son incorrectos"
             ));
+        }else{
+            if ($aResultado[0]['estatus'] == 0) {
+                return $this->asJson(array(
+                    "success" => false,
+                    "message" => "El usuario se encuentra dado de baja, verifique por favor"
+                ));
+            }
         }
         $aUsuario = $aResultado[0];
 
