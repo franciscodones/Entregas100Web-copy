@@ -7,7 +7,7 @@
             "frameworkVersion": "6.5.3.57"
         },
         "urlPrefixTemplate": "http://localhost:{port}/{path}",
-        "urlPrefix": "http://localhost:53021/",
+        "urlPrefix": "http://localhost:52086/",
         "canvasControls": {
             "viewportSize": {
                 "name": "Large",
@@ -225,7 +225,7 @@
             "3b365496-9cd9-4a97-8cb7-c51a39ebd2e1"
         ],
         "resource": [
-            "978aa5b6-b97a-482f-bc55-607d6d97056d",
+            "5c846964-149e-44c4-ba52-dbafc8aeb461",
             "eeea5342-405b-4cc3-b300-0364ab6fff3b",
             "bededc52-2f39-44f8-9a11-4d8f26eca495"
         ],

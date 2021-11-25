@@ -13,6 +13,8 @@ use PHPExcel_Style_Border;
 
 /*1.1 se modifico mangueras reinsertar por si ya existe el registro que se metio manual se borre de la base de datos de lo contrario que lo agregue, verifica si es estacion o es de diferente rubro, si es estacion obtiene la informacion sel centralizado e ingresa la informacion al local.*/
 
+##prueba
+
 class ManguerasController extends AppController
 {
 
